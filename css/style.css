@@ -105,8 +105,9 @@ li:hover {
 
 @media only screen and (max-width: 725px) {
     li {
-        width: 50%;
+        width: 70%;
     }
+
 
     h1 {
         font-size: 2rem;
@@ -117,7 +118,21 @@ li:hover {
         margin:20px auto;
         font-size: 2rem;
         text-align: center;
+        width: 80%;
     }
 
+    .bg {
+        height: 30%;
+        position: absolute;
+        top: 35px;
+        left:-10px
+    }
+
+    .logo {
+        width: 40%;
+        height: 40%;
+        padding: 10px;
+        margin: auto;
+    }
 
 }
