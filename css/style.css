@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #fba9b8;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg {
+    z-index: -1;
+    top:100px;
+    left: 0;
+    position: absolute;
+    transform:scaleX(-1);
+    width: 50%;
+}
+
+.main-container {
+    width: 80%;
+    padding: 20px;
+}
+
+.main-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+}
+
+.socmed-logo {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: 25px;
+}
+
+h1,h2 {
+    color: #f7eae1;
+    text-align: center;
+    margin: 0;
+}
+
+.logo {
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+    margin: auto;
+}
+
+.navbar {
+    width: 100%;
+    margin: 0 auto;
+}
+.navbar ul {
+    padding: 20px;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+    background-color: #FBD7E1;
+    border: 1px solid #f7eae1;
+    border-radius: 50px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 30%;
+    padding: 10px;
+    position: relative;
+}
+
+
+p {
+    text-align: center;
+    color: #f7eae1;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: gray;
+    font-size: 2vh;
+    margin: auto;
+    padding: 10px;
+}
+
+li:hover {
+    cursor: pointer;
+    background-color: #f3379b;
+}
+
+.message-bottom {
+    font-family: 'Marck Script', cursive;
+    font-size: 3.25rem;
+    width: 459px;
+    text-align: right;
+    right: 50px;
+    bottom: 100px;
+    position: absolute;
+}
+
+@media only screen and (max-width: 725px) {
+    li {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .message-bottom {
+        position:static;
+        margin:20px auto;
+        font-size: 2rem;
+        text-align: center;
+    }
+
+
+}
